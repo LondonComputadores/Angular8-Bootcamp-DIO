@@ -5,22 +5,24 @@
         <tr>
             <th>Image</th> 
             <th>Name</th>
-            <th>Code</th>
             <th>Price</th>
+            <th>Code</th>
+            <th>duration</th>
             <th>Rating</th>
-            <th>Data</th>
+            <th>releaseDate</th>
             <th>Options</th>
         </tr>
     </thead>
-    <body>
+    <tbody>
         <tr *ngFor="let course of courses">
             <td>{{ course.imageUrl }}</td>
             <td>{{ course.name }}</td>
             <td>{{ course.price }}</td>
             <td>{{ course.code }}</td>
-            <td>{{ course.releaseDate }}</td>
+            <td>{{ course.duration }}</td>
             <td>{{ course.rating }}</td>
+            <td>{{ course.releaseDate }}</td>            
             <td>{{ course.options }}</td>
         </tr>
-    </body>
+    </tbody>
 </table>

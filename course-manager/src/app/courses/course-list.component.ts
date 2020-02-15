@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { course } from './course';
+import { Course } from './course';
 
 @Component({
     selector: 'app-course-list',
@@ -14,8 +14,8 @@ export class CourseListComponent implements OnInit {
         this.courses = [
             {
                 id: 1,
-                name: 'Angular: Forms',
                 imageUrl: '',
+                name: 'Angular: Forms',                
                 price: 99.99,
                 code: 'XPS-8796',
                 duration: 120,
@@ -25,8 +25,8 @@ export class CourseListComponent implements OnInit {
             },
             {
                 id: 2,
-                name: 'Angular: HTTP',
                 imageUrl: '',
+                name: 'Angular: HTTP',                
                 price: 59.99,
                 code: 'LPS-8769',
                 duration: 80,

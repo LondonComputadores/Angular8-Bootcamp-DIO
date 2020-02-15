@@ -1,7 +1,7 @@
 export class Course {
     id: number;
-    name: string;
     imageUrl: string;
+    name: string;    
     price: number;
     code: string;
     duration: number;
