@@ -8,4 +8,5 @@ export class Course {
     rating: number;
     releaseDate: string;
     options: string;
+    description: string;
 }
